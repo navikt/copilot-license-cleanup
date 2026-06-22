@@ -1,0 +1,422 @@
+    [
+      {
+        "created_at": "2024-11-03T18:35:46+01:00",
+        "assignee": {
+          "login": "ingring",
+          "id": 97440960,
+          "node_id": "U_kgDOBc7UwA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/97440960?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ingring",
+          "html_url": "https://github.com/ingring",
+          "followers_url": "https://api.github.com/users/ingring/followers",
+          "following_url": "https://api.github.com/users/ingring/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ingring/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ingring/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ingring/subscriptions",
+          "organizations_url": "https://api.github.com/users/ingring/orgs",
+          "repos_url": "https://api.github.com/users/ingring/repos",
+          "events_url": "https://api.github.com/users/ingring/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ingring/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-11-03T18:35:46+01:00",
+        "last_activity_at": null,
+        "last_activity_editor": null,
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "f16c3606-0bcd-11ef-839d-6a6f5740352d",
+          "samlIdentity": {
+            "nameId": "Ingrid.Nes.Gladheim@nav.no",
+            "username": "Ingrid.Nes.Gladheim@nav.no"
+          },
+          "user": {
+            "login": "ingring",
+            "name": "Ingrid Gladheim",
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2024-11-03T18:35:46+01:00",
+        "assignee": {
+          "login": "ahusby",
+          "id": 12073037,
+          "node_id": "MDQ6VXNlcjEyMDczMDM3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/12073037?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ahusby",
+          "html_url": "https://github.com/ahusby",
+          "followers_url": "https://api.github.com/users/ahusby/followers",
+          "following_url": "https://api.github.com/users/ahusby/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ahusby/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ahusby/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ahusby/subscriptions",
+          "organizations_url": "https://api.github.com/users/ahusby/orgs",
+          "repos_url": "https://api.github.com/users/ahusby/repos",
+          "events_url": "https://api.github.com/users/ahusby/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ahusby/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-11-03T18:35:46+01:00",
+        "last_activity_at": null,
+        "last_activity_editor": null,
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "ebf8b818-408e-11ed-90fc-0b9de3c6095b",
+          "samlIdentity": {
+            "nameId": "Are.Husby@nav.no",
+            "username": "Are.Husby@nav.no"
+          },
+          "user": {
+            "login": "ahusby",
+            "name": "Are Husby",
+            "email": "ahusby@gmail.com"
+          }
+        }
+      },
+      {
+        "created_at": "2024-05-21T15:59:25+02:00",
+        "assignee": {
+          "login": "syasiukovich",
+          "id": 130465134,
+          "node_id": "U_kgDOB8a9bg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/130465134?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/syasiukovich",
+          "html_url": "https://github.com/syasiukovich",
+          "followers_url": "https://api.github.com/users/syasiukovich/followers",
+          "following_url": "https://api.github.com/users/syasiukovich/following{/other_user}",
+          "gists_url": "https://api.github.com/users/syasiukovich/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/syasiukovich/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/syasiukovich/subscriptions",
+          "organizations_url": "https://api.github.com/users/syasiukovich/orgs",
+          "repos_url": "https://api.github.com/users/syasiukovich/repos",
+          "events_url": "https://api.github.com/users/syasiukovich/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/syasiukovich/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-05-21T15:59:25+02:00",
+        "last_activity_at": null,
+        "last_activity_editor": null,
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "1783ccd4-d216-11ed-8e5c-499eb8ec972a",
+          "samlIdentity": {
+            "nameId": "Siarhei.Yasiukovich@nav.no",
+            "username": "Siarhei.Yasiukovich@nav.no"
+          },
+          "user": {
+            "login": "syasiukovich",
+            "name": "Siarhei Yasiukovich",
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2023-11-02T13:55:07+01:00",
+        "assignee": {
+          "login": "aalsim",
+          "id": 142977825,
+          "node_id": "U_kgDOCIWrIQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/142977825?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/aalsim",
+          "html_url": "https://github.com/aalsim",
+          "followers_url": "https://api.github.com/users/aalsim/followers",
+          "following_url": "https://api.github.com/users/aalsim/following{/other_user}",
+          "gists_url": "https://api.github.com/users/aalsim/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/aalsim/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/aalsim/subscriptions",
+          "organizations_url": "https://api.github.com/users/aalsim/orgs",
+          "repos_url": "https://api.github.com/users/aalsim/repos",
+          "events_url": "https://api.github.com/users/aalsim/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/aalsim/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2023-11-02T13:55:07+01:00",
+        "last_activity_at": "2024-06-12T10:45:59+02:00",
+        "last_activity_editor": "JetBrains-IU/232.9559.62/copilot-chat-ide/1.5.2.5345",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "adcae940-418b-11ee-849c-c53c416da7a5",
+          "samlIdentity": {
+            "nameId": "Ashild.Lobben.Simonsen@nav.no",
+            "username": "Ashild.Lobben.Simonsen@nav.no"
+          },
+          "user": {
+            "login": "aalsim",
+            "name": null,
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2023-09-12T15:19:36+02:00",
+        "assignee": {
+          "login": "vildestefferud",
+          "id": 33753494,
+          "node_id": "MDQ6VXNlcjMzNzUzNDk0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/33753494?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/vildestefferud",
+          "html_url": "https://github.com/vildestefferud",
+          "followers_url": "https://api.github.com/users/vildestefferud/followers",
+          "following_url": "https://api.github.com/users/vildestefferud/following{/other_user}",
+          "gists_url": "https://api.github.com/users/vildestefferud/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/vildestefferud/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/vildestefferud/subscriptions",
+          "organizations_url": "https://api.github.com/users/vildestefferud/orgs",
+          "repos_url": "https://api.github.com/users/vildestefferud/repos",
+          "events_url": "https://api.github.com/users/vildestefferud/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/vildestefferud/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2023-09-12T15:19:36+02:00",
+        "last_activity_at": "2024-09-30T13:01:40+02:00",
+        "last_activity_editor": "JetBrains-IU/242.23339.11/copilot-intellij/1.5.22.6765",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "ea781ba0-408e-11ed-853f-ff495a711989",
+          "samlIdentity": {
+            "nameId": "Vilde.Stefferud@nav.no",
+            "username": "Vilde.Stefferud@nav.no"
+          },
+          "user": {
+            "login": "vildestefferud",
+            "name": "Vilde Stefferud",
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2023-11-13T12:00:53+01:00",
+        "assignee": {
+          "login": "rfc3092",
+          "id": 6096127,
+          "node_id": "MDQ6VXNlcjYwOTYxMjc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6096127?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rfc3092",
+          "html_url": "https://github.com/rfc3092",
+          "followers_url": "https://api.github.com/users/rfc3092/followers",
+          "following_url": "https://api.github.com/users/rfc3092/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rfc3092/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rfc3092/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rfc3092/subscriptions",
+          "organizations_url": "https://api.github.com/users/rfc3092/orgs",
+          "repos_url": "https://api.github.com/users/rfc3092/repos",
+          "events_url": "https://api.github.com/users/rfc3092/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rfc3092/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2023-11-13T12:00:53+01:00",
+        "last_activity_at": "2024-10-11T13:34:04+02:00",
+        "last_activity_editor": "vscode/1.93.1/copilot/1.237.0",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "24432592-081c-11e8-8e84-6c0467acedfc",
+          "samlIdentity": {
+            "nameId": "Cato.Olsen@nav.no",
+            "username": "Cato.Olsen@nav.no"
+          },
+          "user": {
+            "login": "rfc3092",
+            "name": "Cato Olsen",
+            "email": "cato.olsen@nav.no"
+          }
+        }
+      },
+      {
+        "created_at": "2024-01-30T13:26:09+01:00",
+        "assignee": {
+          "login": "delmona",
+          "id": 155435786,
+          "node_id": "U_kgDOCUPDCg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/155435786?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/delmona",
+          "html_url": "https://github.com/delmona",
+          "followers_url": "https://api.github.com/users/delmona/followers",
+          "following_url": "https://api.github.com/users/delmona/following{/other_user}",
+          "gists_url": "https://api.github.com/users/delmona/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/delmona/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/delmona/subscriptions",
+          "organizations_url": "https://api.github.com/users/delmona/orgs",
+          "repos_url": "https://api.github.com/users/delmona/repos",
+          "events_url": "https://api.github.com/users/delmona/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/delmona/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-01-30T13:26:09+01:00",
+        "last_activity_at": "2024-10-24T13:41:06+02:00",
+        "last_activity_editor": "vscode/1.94.2/copilot/1.242.0",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "d3c8e922-7ff6-11ee-9568-002b4d98330c",
+          "samlIdentity": {
+            "nameId": "Delmon.Arous@nav.no",
+            "username": "Delmon.Arous@nav.no"
+          },
+          "user": {
+            "login": "delmona",
+            "name": null,
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2024-02-09T09:51:44+01:00",
+        "assignee": {
+          "login": "tvsignal",
+          "id": 384954,
+          "node_id": "MDQ6VXNlcjM4NDk1NA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/384954?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tvsignal",
+          "html_url": "https://github.com/tvsignal",
+          "followers_url": "https://api.github.com/users/tvsignal/followers",
+          "following_url": "https://api.github.com/users/tvsignal/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tvsignal/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tvsignal/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tvsignal/subscriptions",
+          "organizations_url": "https://api.github.com/users/tvsignal/orgs",
+          "repos_url": "https://api.github.com/users/tvsignal/repos",
+          "events_url": "https://api.github.com/users/tvsignal/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tvsignal/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-02-09T09:51:44+01:00",
+        "last_activity_at": "2024-11-04T14:46:28+01:00",
+        "last_activity_editor": "JetBrains-IU/242.23339.11/copilot-intellij/1.5.25.10",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "8456d074-3146-11ee-8c36-1b76c19db31b",
+          "samlIdentity": {
+            "nameId": "Trond.Valen@nav.no",
+            "username": "Trond.Valen@nav.no"
+          },
+          "user": {
+            "login": "tvsignal",
+            "name": "Trond Valen",
+            "email": "publictrond@gmail.com"
+          }
+        }
+      },
+      {
+        "created_at": "2024-03-13T10:19:21+01:00",
+        "assignee": {
+          "login": "OivindAxelsen",
+          "id": 60512353,
+          "node_id": "MDQ6VXNlcjYwNTEyMzUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/60512353?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/OivindAxelsen",
+          "html_url": "https://github.com/OivindAxelsen",
+          "followers_url": "https://api.github.com/users/OivindAxelsen/followers",
+          "following_url": "https://api.github.com/users/OivindAxelsen/following{/other_user}",
+          "gists_url": "https://api.github.com/users/OivindAxelsen/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/OivindAxelsen/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/OivindAxelsen/subscriptions",
+          "organizations_url": "https://api.github.com/users/OivindAxelsen/orgs",
+          "repos_url": "https://api.github.com/users/OivindAxelsen/repos",
+          "events_url": "https://api.github.com/users/OivindAxelsen/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/OivindAxelsen/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-03-13T10:19:21+01:00",
+        "last_activity_at": "2024-11-05T12:22:10+01:00",
+        "last_activity_editor": "vscode/1.95.1/",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "60558f8a-4432-11ea-8425-750ee0aa3e99",
+          "samlIdentity": {
+            "nameId": "Oivind.Axelsen@nav.no",
+            "username": "Oivind.Axelsen@nav.no"
+          },
+          "user": {
+            "login": "OivindAxelsen",
+            "name": "Øivind Axelsen",
+            "email": ""
+          }
+        }
+      },
+      {
+        "created_at": "2024-03-11T21:03:08+01:00",
+        "assignee": {
+          "login": "deonav",
+          "id": 65232106,
+          "node_id": "MDQ6VXNlcjY1MjMyMTA2",
+          "avatar_url": "https://avatars.githubusercontent.com/u/65232106?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/deonav",
+          "html_url": "https://github.com/deonav",
+          "followers_url": "https://api.github.com/users/deonav/followers",
+          "following_url": "https://api.github.com/users/deonav/following{/other_user}",
+          "gists_url": "https://api.github.com/users/deonav/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/deonav/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/deonav/subscriptions",
+          "organizations_url": "https://api.github.com/users/deonav/orgs",
+          "repos_url": "https://api.github.com/users/deonav/repos",
+          "events_url": "https://api.github.com/users/deonav/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/deonav/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "pending_cancellation_date": null,
+        "plan_type": "business",
+        "updated_at": "2024-03-11T21:03:08+01:00",
+        "last_activity_at": "2024-11-05T17:04:35+01:00",
+        "last_activity_editor": "copilot-chat-platform",
+        "organization": "navikt",
+        "externalIdentity": {
+          "guid": "03757e7e-944b-11ea-9db1-90a0b7f512e7",
+          "samlIdentity": {
+            "nameId": "Daniel.Egelandsdal.Osen@nav.no",
+            "username": "Daniel.Egelandsdal.Osen@nav.no"
+          },
+          "user": {
+            "login": "deonav",
+            "name": "deo",
+            "email": ""
+          }
+        }
+      }
+    ]
