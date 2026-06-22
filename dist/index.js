@@ -115692,13 +115692,38 @@ const run = () => __awaiter(void 0, void 0, void 0, function* () {
             const inactiveSeatsAssignedIndividually = inactiveSeats.filter(seat => !seat.assigning_team);
             if (inactiveSeatsAssignedIndividually.length > 0) {
                 yield core.group('Removing inactive seats', () => __awaiter(void 0, void 0, void 0, function* () {
-                    const response = yield octokit.request(`DELETE /orgs/{org}/copilot/billing/selected_users`, {
-                        org: org,
-                        selected_usernames: inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login),
-                    });
-                    core.info(`Removed ${response.data.seats_cancelled} seats`);
-                    allRemovedSeatsCount += response.data.seats_cancelled;
-                    core.info(`removed users:  ${inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login)}`);
+                    let usernamesToRemove = inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login);
+                    let attempt = 0;
+                    while (usernamesToRemove.length > 0 && attempt < 2) {
+                        attempt++;
+                        try {
+                            const response = yield octokit.request(`DELETE /orgs/{org}/copilot/billing/selected_users`, {
+                                org: org,
+                                selected_usernames: usernamesToRemove,
+                            });
+                            core.info(`Removed ${response.data.seats_cancelled} seats`);
+                            allRemovedSeatsCount += response.data.seats_cancelled;
+                            core.info(`Removed users: ${usernamesToRemove.join(', ')}`);
+                            break;
+                        }
+                        catch (error) {
+                            const err = error;
+                            if (err.status === 404 && err.message && err.message.includes('do not exist in this organization')) {
+                                const match = err.message.match(/do not exist in this organization: (.+)$/);
+                                if (match) {
+                                    const nonOrgUsers = match[1].split(', ').map(u => u.trim());
+                                    core.warning(`Skipping ${nonOrgUsers.length} user(s) not found in org ${org}: ${nonOrgUsers.join(', ')}`);
+                                    usernamesToRemove = usernamesToRemove.filter(u => !nonOrgUsers.includes(u));
+                                }
+                                else {
+                                    throw error;
+                                }
+                            }
+                            else {
+                                throw error;
+                            }
+                        }
+                    }
                 }));
             }
         }

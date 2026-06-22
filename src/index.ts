@@ -6,7 +6,8 @@ import path from 'path';
 import { parse } from 'csv-parse/sync';
 import * as artifact from '@actions/artifact';
 import type { Endpoints } from "@octokit/types";
-let RequestError;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let RequestError: any;
 (async () => {
   const module = await import('@octokit/request-error');
   RequestError = module.RequestError;
@@ -344,13 +345,36 @@ const run = async (): Promise<void> => {
       const inactiveSeatsAssignedIndividually = inactiveSeats.filter(seat => !seat.assigning_team);
       if (inactiveSeatsAssignedIndividually.length > 0) {
         await core.group('Removing inactive seats', async () => {
-          const response = await octokit.request(`DELETE /orgs/{org}/copilot/billing/selected_users`, {
-            org: org,
-            selected_usernames: inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login),
-          });
-          core.info(`Removed ${response.data.seats_cancelled} seats`);
-          allRemovedSeatsCount += response.data.seats_cancelled;
-          core.info(`removed users:  ${inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login)}`)
+          let usernamesToRemove = inactiveSeatsAssignedIndividually.map(seat => seat.assignee.login) as string[];
+          let attempt = 0;
+          while (usernamesToRemove.length > 0 && attempt < 2) {
+            attempt++;
+            try {
+              const response = await octokit.request(`DELETE /orgs/{org}/copilot/billing/selected_users`, {
+                org: org,
+                selected_usernames: usernamesToRemove,
+              });
+              core.info(`Removed ${response.data.seats_cancelled} seats`);
+              allRemovedSeatsCount += response.data.seats_cancelled;
+              core.info(`Removed users: ${usernamesToRemove.join(', ')}`);
+              break;
+            } catch (error) {
+              const err = error as { status?: number; message?: string };
+              if (err.status === 404 && err.message && err.message.includes('do not exist in this organization')) {
+                // Extract usernames that are no longer org members from the error message
+                const match = err.message.match(/do not exist in this organization: (.+)$/);
+                if (match) {
+                  const nonOrgUsers = match[1].split(', ').map(u => u.trim());
+                  core.warning(`Skipping ${nonOrgUsers.length} user(s) not found in org ${org}: ${nonOrgUsers.join(', ')}`);
+                  usernamesToRemove = usernamesToRemove.filter(u => !nonOrgUsers.includes(u));
+                } else {
+                  throw error;
+                }
+              } else {
+                throw error;
+              }
+            }
+          }
         });
       }
     }
